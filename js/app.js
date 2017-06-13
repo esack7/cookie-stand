@@ -22,7 +22,7 @@ var pikeAndFirst = {
   },
   render: function() {
     var headRender = document.getElementById('store');
-    var headEl = document.createElement('h3');
+    var headEl = document.createElement('h4');
     headEl.textContent = this.locationName;
     headRender.appendChild(headEl);
     this.calcCookiesThisHour();
@@ -63,7 +63,7 @@ var seaTacAir = {
   },
   render: function() {
     var headRender = document.getElementById('store2');
-    var headEl = document.createElement('h3');
+    var headEl = document.createElement('h4');
     headEl.textContent = this.locationName;
     headRender.appendChild(headEl);
     this.calcCookiesThisHour();
@@ -103,7 +103,7 @@ var seattleCenter = {
   },
   render: function() {
     var headRender = document.getElementById('store3');
-    var headEl = document.createElement('h3');
+    var headEl = document.createElement('h4');
     headEl.textContent = this.locationName;
     headRender.appendChild(headEl);
     this.calcCookiesThisHour();
@@ -143,7 +143,7 @@ var capitolHill = {
   },
   render: function() {
     var headRender = document.getElementById('store4');
-    var headEl = document.createElement('h3');
+    var headEl = document.createElement('h4');
     headEl.textContent = this.locationName;
     headRender.appendChild(headEl);
     this.calcCookiesThisHour();
@@ -183,7 +183,7 @@ var alki = {
   },
   render: function() {
     var headRender = document.getElementById('store5');
-    var headEl = document.createElement('h3');
+    var headEl = document.createElement('h4');
     headEl.textContent = this.locationName;
     headRender.appendChild(headEl);
     this.calcCookiesThisHour();

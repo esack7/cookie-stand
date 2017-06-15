@@ -11,6 +11,25 @@
       <h2>Store Projections</h2>
       <img src="img/salmon.png">
     </header>
+    <form id="input">
+      <fieldset>
+        <legend>Update Store Sales</legend>
+
+        <label for="location">Store Location: </label>
+        <input name="location" type="text">
+
+        <label for="minCustomers">Minimum Customers Per Hour: </label>
+        <input type="text" name="minCustomers"><br>
+
+        <label for="maxCustomers">Maximum Customers Per Hour: </label>
+        <input name="maxCustomers" type="text">
+
+        <label for="avgCookies">Average Cookies Per Hour: </label>
+        <input name="avgCookies" type="text">
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
     <table id="stores"></table>
     <script src="js/app.js" type="text/javascript"></script>
   </body>

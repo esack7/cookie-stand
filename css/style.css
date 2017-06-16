@@ -1,45 +1,65 @@
-/** {
-  border: 2px dotted gray;
-}*/
-
 body {
-  background-color: salmon;
+  background-image: url('../img/ross-lake.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-img {
-  margin: auto;
-  display: block;
-  padding: 25px;
+#one {
+  /*border: 2px solid orange;*/
+  transform: scaleX(-1);
+  display: inline;
+  float: left;
+  margin-right: 100px;
+}
+
+#two {
+  /*border: 2px solid orange;*/
+  display: inline;
+  float: right;
+  margin-left: 25px;
 }
 
 header {
-  text-align: center;
+  /*border: 2px solid orange;*/
+  background-color: #FEFEFE;
+  height: 185px;
 }
 
-/*article {
-  border: 3px solid black;
-  display: inline-flex;
-  margin: 25px;
-  padding: 15px;
-}*/
+h1 {
+  /*border: 2px solid orange;*/
+  display: inline;
+  /*text-align: center;*/
+  font-family: 'Pacifico', cursive;
+  color: salmon;
+  font-size: 4em;
+  /*padding-top: 25px; */
+  position:
+}
 
-table {
+h3 {
+  /*border: 2px solid orange;*/
+  /*display: inline;*/
   text-align: center;
-  font-size: 1.25em;
-  border: 2px solid black;
+  color: salmon;
+  font-size: 3em;
+}
+
+#fam {
+  display: block;
+  margin:auto;
+}
+
+#salmon {
+  display: block;
   margin: auto;
 }
 
-th, td {
-  padding: 20px;
-  }
-
-
-/*tr td th {
-  margin: 4px;
-}*/
+table {
+  background-color: salmon;
+}
 
 form {
-  margin:auto;
-  text-align: center;
+  color: salmon;
 }

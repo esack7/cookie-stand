@@ -53,13 +53,29 @@ h3 {
 
 #salmon {
   display: block;
-  margin: auto;
+  float: left;
+  width: 25%;
+  height: auto;
+}
+
+#salmon2 {
+  display: block;
+  float: right;
+  width: 25%;
+  height: auto;
 }
 
 table {
   background-color: salmon;
+  margin: auto;
 }
 
 form {
   color: salmon;
+}
+
+li {
+  color: salmon;
+  font-size: 22px;
+  margin: auto;
 }

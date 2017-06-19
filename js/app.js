@@ -52,6 +52,15 @@ function handleSubmit(event) {
   renderFooter();
 }
 
+function makeElement(type, content, parent) {
+  //create
+  var newEl = document.createElement(type);
+  //content
+  newEl.textContent = content;
+  //append
+  parent.appendChild(newEl);
+}
+
 var renderHead = function() {
   var hrEl = document.createElement('tr');
   var hdEl = document.createElement('th');
@@ -128,3 +137,6 @@ renderTable();
 renderFooter();
 
 addStore.addEventListener('submit', handleSubmit);
+
+//Use makeElement() to make more DRY!!!
+//Add ability to replace stores!!

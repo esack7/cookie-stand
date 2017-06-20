@@ -79,3 +79,8 @@ li {
   font-size: 22px;
   margin: auto;
 }
+
+p {
+  background-color: white;
+  text-align: center;
+}
